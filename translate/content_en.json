@@ -1,0 +1,84 @@
+{
+    "index": {
+      "navHome": "Home",
+      "navBio": "Biography",
+      "navArtwork": "Artwork",
+      "navGallery": "Gallery",
+      "navAwards": "Achievments and Awards",
+      "navDesign": "Architecture and Design",
+      "homeArtwork":"Artwork",
+      "homeGallery":"Gallery",
+      "homeDesign":"Architecture and Design",
+      "heading01":"Location of art gallery",
+      "contact":"Contact:",
+      "mobile":"Mobile No.: 0987654321",
+      "mail":"Mail: abc@mail.com",
+      "p001": "Creating thread art is a meticulous and expressive endeavor where I craft intricate portraits and various other pieces using threads. Each artwork is a testament to patience and creativity, weaving together colors and textures to form detailed images that capture the essence of my subjects. Whether I'm depicting a person's likeness or exploring abstract designs, thread becomes my medium of choice for its versatility and tactile appeal. Through this art form, I aim to convey emotions, stories, and the beauty found in the interplay of thread's strands, turning simple materials into compelling works of art."
+    },
+    "about": {
+      "navHome": "Home",
+      "navBio": "Biography",
+      "navArtwork": "Artwork",
+      "navGallery": "Gallery",
+      "navAwards": "Achievments and Awards",
+      "navDesign": "Architecture and Design",
+      "aboutName": "Jafar Al Grety",
+      "aboutInfo": "Welcome to my Thread Art Gallery! Step into a world where vibrant threads intertwine to create mesmerizing masterpieces. As a dedicated thread artist, I pour my heart and soul into every stitch, weaving stories, emotions, and dreams into each piece. With a passion for color and texture, I aim to evoke a sense of wonder and connection through my art. From intricate tapestries to delicate embroideries, each creation is a testament to the beauty of handcrafted expression. Join me on this journey as we explore the boundless possibilities of thread and needle, celebrating the artistry of the ancient craft in a contemporary context.Thank you for visiting, and may my thread art inspire and uplift your soul."
+    },
+    "award": {
+      "navHome": "Home",
+      "navBio": "Biography",
+      "navArtwork": "Artwork",
+      "navGallery": "Gallery",
+      "navAwards": "Achievments and Awards",
+      "navDesign": "Architecture and Design",
+      "heading1": "1.The first world record",
+      "heading2": "2.The second world record",
+      "heading3": "3.The third world record",
+      "paragraph101": "Portrait",
+      "paragraph102": "Length of used thread: N/A",
+      "paragraph103": "Number of nails used: N/A",
+      "paragraph201": "Queen Elizabeth II string art piece 2022",
+      "paragraph202": "Length of used thread: 15,380 m",
+      "paragraph203": "Number of nails used: 3,960 nails",
+      "paragraph301": "World Cup Qutar 2022 string art piece",
+      "paragraph302": "Length of used thread: 10,306 m",
+      "paragraph303": "Number of nails used: 22,000 nails"
+      },
+      "design": {
+        "navHome": "Home",
+        "navBio": "Biography",
+        "navArtwork": "Artwork",
+        "navGallery": "Gallery",
+        "navAwards": "Achievments and Awards",
+        "navDesign": "Architecture and Design",
+        "headingDesign": "Architecture and Design",
+        "paragraphDesign": "As a thread artist deeply immersed in the world of architecture design, my creative journey is a dynamic blend of two distinct yet interwoven realms of artistic expression. Through my thread art, I meticulously weave intricate patterns and textures, harnessing the tactile beauty of textiles to evoke emotion and captivate the senses. Simultaneously, my architectural designs are a manifestation of vision and innovation, where abstract concepts materialize into structures that shape environments and inspire experiences. This dual expertise allows me to fluidly navigate between the delicate artistry of thread and the structural integrity of architecture, crafting narratives that resonate through every stitch and blueprint.",
+        "paragraphImg01": "Design-01",
+        "paragraphImg02": "Design-02",
+        "paragraphImg03": "Design-03",
+        "paragraphImg04": "Design-04",
+        "paragraphImg05": "Design-05",
+        "paragraphImg06": "Design-06",
+        "paragraphImg07": "Design-07",
+        "paragraphImg08": "Design-08",
+        "paragraphImg09": "Design-09"
+      },
+      "gallery": {
+        "navHome": "Home",
+        "navBio": "Biography",
+        "navArtwork": "Artwork",
+        "navGallery": "Gallery",
+        "navAwards": "Achievments and Awards",
+        "navDesign": "Architecture and Design"
+      },
+      "artwork": {
+        "navHome": "Home",
+        "navBio": "Biography",
+        "navArtwork": "Artwork",
+        "navGallery": "Gallery",
+        "navAwards": "Achievments and Awards",
+        "navDesign": "Architecture and Design"
+      }
+  }
+  

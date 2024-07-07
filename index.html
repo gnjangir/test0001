@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="style/styles.css">
+        <link rel="stylesheet" href="style/navbar.css">
+        <script src="https://kit.fontawesome.com/5da59aab0d.js" crossorigin="anonymous"></script>
+        <script src="./translate/language.js" defer></script>
+    </head>
+    <body>
+        <!-- nav bar section  -->
+        <nav role="navigation">
+            <div id="menuToggle">
+            <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            <ul id="menu">
+                <li><a href="/" id="navHome"></a></li>
+                <li><a href="about.html" id="navBio"></a></li>
+                <li><a href="artwork.html" id="navArtwork"></a></li>
+                <li><a href="gallery.html" id="navGallery"></a></li>
+                <li><a href="award.html" id="navAwards"></a></li>
+                <li><a href="design.html" id="navDesign"></a></li>
+            </ul>
+            </div>
+            <div class="logo cen"></div>
+            <!-- laguage translate button -->
+            <button onclick="changeLanguage()" id="laguage-button"></button>
+        </nav>
+        <!-- slide show section of home page -->
+        <div class="slideshow-container">
+            <div class="background"></div>
+            <div class="slides">
+                <div class="slide" style="background-image: url('images/a_01.jpg');"></div>
+                <div class="slide" style="background-image: url('images/ss_03-a.jpg');"></div>
+                <div class="slide" style="background-image: url('images/a_05.jpg');"></div>
+                <div class="slide" style="background-image: url('images/ss_04.jpg');"></div>
+                <div class="slide" style="background-image: url('images/ss_02.jpg');"></div>
+                <!-- <div class="dot-container">
+                    <span class="dot" onclick="currentSlide(0)"></span>
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div> -->
+            </div>
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+        <!-- Sticky div -->
+        <div class="bg-maker"></div>
+        <!-- main section of home page -->
+        <p class="main-text" id="p001"></p>
+        <div class="semi-nav">
+            <div><a href="artwork.html" id="homeArtwork"></a></div>
+            <div><a href="gallery.html" id="homeGallery"></a></div>
+            <div><a href="design.html" id="homeDesign"></a></div>
+        </div>
+        <!-- adding map location -->
+        <h1 id="heading01"></h1>
+        <footer>
+            <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3360.047725335691!2d44.041443!3d32.631552500000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15596d0039d281a9%3A0xb8c31a4d0da53f34!2z2YXYudix2LYg2KfZhNmB2YbYp9mGINiz2LnZitivINmH2YjZitiv2Yo!5e0!3m2!1sen!2sin!4v1719080589863!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contact-info">
+                <h2 id="contact"></h2>
+                <p id="mobile"></p>
+                <p id="mail"></p>
+                <div id="Page1a">Page1a</div>
+                <div>
+                    <a href="https://www.instagram.com/saeedhwaidi?igsh=bjQzYnJ6Y2dxMTVn"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100039113580738&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+p{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+nav{
+    background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 1.5rem;
+}
+.main-text{
+    padding-top: 10vh;
+    padding-left: 12vw;
+    width: 80vw;
+    font-size: 1.2rem;
+}
+.artwork-outer{
+    padding-top: 10vh;
+    padding-left: 10vw;
+    padding-bottom: 10vh;
+}
+.artwork-inner{
+    margin-top: 10vh;
+    margin-left: 3vw;
+    width: 22vw;
+    display: inline-block;
+}
+.artwork-img{
+    height: 18vw;
+    width: 100%;
+    border-radius: 8px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.artwork-inner p {
+    font-size: 1.2rem;
+    margin-left: 8px;
+    margin-top: 12px;
+}
+@media (max-width: 900px) {
+    .artwork-inner p{
+        font-size: 1.2rem;
+    }
+    .artwork-inner{
+        width: 38vw;
+    }
+    .artwork-img{
+        height: 34vw;
+    }
+}
+@media (max-width: 600px) {
+    .main-text{
+        font-size: 1rem;
+    }
+    .artwork-outer{
+        padding-left: 18vw;
+    }
+    .artwork-inner{
+        width: 60vw;
+    }
+    .artwork-img{
+        height: 50vw;
+    }
+}
